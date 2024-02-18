@@ -23,7 +23,7 @@ public class test {
         caps.setBrowserName("chrome");
         caps.setPlatform(Platform.LINUX);
         driver = new RemoteWebDriver(new
-                URL("http://selenium-hub:4444/wd/hub"), caps));
+                URL("http://selenium-hub:4444/wd/hub"), caps);
         driver.get("http://170.75.171.209:30190/petclinic");
     }
     @Test
