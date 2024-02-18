@@ -12,7 +12,7 @@ Check and install without restart
 Go New Item, Name hello-world-selenium, select Maven-project  
 Hit Ok  
 Source Management   
-Git  https://github.com/<your_repo>/hello-world-selenium.git  
+Git  https://github.com/<your_repo>/petclinic-selenium.git  
 Build  
 Root POM: pom.xml  
 Goals and options: test   
