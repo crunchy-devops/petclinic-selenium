@@ -19,9 +19,13 @@ public class test {
     WebDriver driver;
     @BeforeMethod
     public void setup() throws MalformedURLException {
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setBrowserName("chrome");
-        caps.setPlatform(Platform.LINUX);
+        ChromeOptions caps= new ChromeOptions();
+        caps.setPlatformName("LINUX");
+        caps.setBrowserVersion("120.0");
+
+        //DesiredCapabilities caps = new DesiredCapabilities();
+        //caps.setBrowserName("chrome");
+        //caps.setPlatform(Platform.LINUX);
         driver = new RemoteWebDriver(new
                 URL("http://selenium-hub:4444/wd/hub"), caps);
         driver.get("http://192.168.1.44:30190/petclinic");
