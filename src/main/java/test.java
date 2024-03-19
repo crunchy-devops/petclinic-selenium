@@ -21,8 +21,8 @@ public class test {
     @BeforeMethod
     public void setup() throws MalformedURLException {
         ChromeOptions caps= new ChromeOptions();
-        caps.setPlatformName("LINUX");
-        caps.setBrowserVersion("120.0");
+        //caps.setPlatformName("LINUX");
+        //caps.setBrowserVersion("120.0");
 
         //DesiredCapabilities caps = new DesiredCapabilities();
         //caps.setBrowserName("chrome");
